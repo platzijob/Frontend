@@ -15,7 +15,8 @@
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "react/jsx-filename-extension": 0,
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "react/jsx-filename-extension": 0
+  }
 }
