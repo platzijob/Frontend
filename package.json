@@ -12,8 +12,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
-    "lint": "npm run format && eslint src/",
+    "lint": "eslint ./src/",
+    "lint:fix": "eslint ./src/ --fix",
     "dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
